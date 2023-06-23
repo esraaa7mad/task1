@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.7);
+    overflow: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    font-size: 22px;
+    z-index: 8;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 150px;
+}
+.list1{
+    float:right;
+    margin-right:200px ;
+}
+.list1 li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+.list1 li a{
+    color:rgba(255, 255, 255, 0.9);
+    text-decoration:none;
+    font-size: 20px;
+}
+.list1 li a:hover{
+    color: rgba(255, 0, 0, 0.9);
+}
+.contact{
+    width: 120px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    float:right;
+    margin-right:-420px ;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(128, 128, 128, 0.7);
+    color: #ffffff;
+}
+.contact:hover{
+    background-color: red;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(#111,#222);
+    background-size: cover;
+    z-index: 1;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, .1);
+    color: #ffffff;
+    position: absolute;
+    z-index: 2;
+}
+.content{
+    width: 50%;
+    height: 50%;
+    background-color:rgba(128, 128, 128, 0.3);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    font:normal bold 40px 'Times New Roman', Times, serif ;
+    text-transform: capitalize;
+    z-index: 3;
+}
+#but{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.but1{
+    color: #ffffff;
+    background-color: black;
+}
+.but2{
+    color: black;
+    background-color: #ffffff;
+}
+.space{
+    width: 100%;
+    height: 100px;
+}
+.parent2{
+    width: 100%;
+    height: 100vh;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.div1 p{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    margin-bottom: 7px;
+    margin-top: 0;
+    
+}
+.line{
+    width: 120px;
+    height: 10px;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin: auto;
+    margin-bottom: 7px;
+    margin-top: -40px;
+}
+h2{
+    margin-top: 100px;
+    text-align: center ;
+    color:black;
+}
+h2:hover{
+    background-color: rgba(197, 222, 230, 0.589);
+}
+.div2{
+    width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center ;
+    border: 2px solid ;
+    border-radius: 3px;
+}
+.div2:hover{
+    background-color: rgba(128, 128, 128, 0.7);
+}
+.div4{
+    width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center ;
+    border: 2px solid ;
+    border-radius: 3px;
+}
+.div4:hover{
+    background-color: rgba(128, 128, 128, 0.7);
+}
+.div6{
+    width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center ;
+    border: 2px solid ;
+    border-radius: 3px;
+}
+.div6:hover{
+    background-color: rgba(128, 128, 128, 0.7);
+}
+.div3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(../images/men.jpg);
+    background-size: cover;
+}
+.div5{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(../images/woman.jpg);
+    background-size: cover;
+}
+.div7{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(../images/kids.jpg);
+    background-size: cover;
+}
+button{
+    background-color:rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 5px;
+    border-style: groove;
+    width: 150px;
+    height: 40px;
+}
+button:hover{
+    background-color: rebeccapurple;
+}
+.div8{
+    width: 100%;
+    height: 20px;
+    margin: auto;
+}
+.div9{
+    width: 100%;
+    height:20px ;
+}
+.div10{
+    width: 100%;
+    height: 20px;
+    margin: auto;
+}
+.section3{
+    width: 100%;
+    height: 80vh;
+}
+.section3 .contaner{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.section3 .contaner .firsthave{
+    width: 50%;
+    height: 80%;
+    float: left;
+} 
+.section3 .contaner .firsthave .firsthavetitle{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.section3 .contaner .firsthave .firsthavetitle:hover{
+    color: slateblue;
+}
+.section3 .contaner .firsthave .line{
+    width: 50px;
+    height: 3px;
+    margin: auto;
+    background-color: black;
+}
+.section3 .contaner .firsthave .firsthavep{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.section3 .contaner .firsthave .firsthavep:hover{
+    color: slateblue;
+}
+.section3 .contaner .firsthave ul{
+    margin-top: 20px;
+}
+.section3 .contaner .firsthave ul li:hover{
+    color: salmon;
+}
+.section3 .contaner .secondhave{
+    float: right;
+    width: 50%;
+    height: 80%;
+}
+.section3 .contaner .secondhave img{
+    width: 50%;
+    height: 80%;
+}
+.section3 .contaner .secondhave ul{
+    list-style: circle;
+    font-size: large;
+}
+.section3 .contaner .secondhave ul li {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: gray;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+.section3 .contaner .secondhave ul .active{
+    background-color: salmon;
+}
+.section3 .contaner .secondhave ul li:hover{
+    background-color: salmon;
+}
+/* /////////////////////////////////////////////////// */
+/* section 4 */
+.section4{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/R.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+}
+.section4 .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.section4 .section4container{
+    width: 100%;
+    height: 50%;
+}
+.section4 .section4container .item1{
+    margin-top: 70px;
+    margin-left: 400px;
+    font-size: 20px;
+    color: whitesmoke;
+    float: left;
+}
+.section4 .section4container .item1h2{
+    color: #ffffff;
+}
+.section4 .section4container .item1 .i{
+    color: white;
+    font-size: 40px;
+}
+.whitespace{
+    width: 100%;
+    height: 200px;
+}
+/* /////////////////////////////////////////////////// */
+/* section 5 */
+.section5{
+    width: 100%;
+    height: 80vh;
+}
+.section5 .contaner{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.section5 .contaner .firsthave{
+    width: 50%;
+    height: 80%;
+    float: right;
+} 
+.section5 .contaner .firsthave .firsthavetitle{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.section5 .contaner .firsthave .firsthavetitle:hover{
+    color: slateblue;
+}
+.section5 .contaner .firsthave .line{
+    width: 50px;
+    height: 3px;
+    margin: auto;
+    background-color: black;
+}
+.section5 .contaner .firsthave .firsthavep{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.section5 .contaner .firsthave .firsthavep:hover{
+    color: slateblue;
+}
+.section5 .contaner .firsthave ul{
+    margin-top: 20px;
+    list-style: none;
+}
+.section5 .contaner .firsthave ul li:hover{
+    color: salmon;
+}
+.section5 .contaner .secondhave{
+    float: left;
+    width: 50%;
+    height: 80%;
+}
+.section5 .contaner .secondhave img{
+    width: 50%;
+    height: 80%;
+}
+.section5 .contaner .secondhave ul{
+    list-style: circle;
+    font-size: large;
+}
+.section5 .contaner .secondhave ul li {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: gray;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+.section5 .contaner .secondhave ul .active{
+    background-color: slateblue;
+}
+.section5 .contaner .secondhave ul li:hover{
+    background-color: slateblue;
+}
+/* ///////////////////////////////////////////////// */
+/* footer */
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(128, 128, 128, 0.3);
+    position: relative; 
+}
+.footer_container{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+}
+.footer .img10{
+    width: 50%;
+    height: 50%;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.footer .facebook{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 40px;
+    position: relative;
+}
+.footer_container .facebook::after{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+.footer_container .facebook:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer_container .facebook::before{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+.footer_container .facebook:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer .twitter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    float: left;
+    margin-top: 30px;
+    font-size: 40px;
+    position: relative;
+}
+.footer_container .twitter::after{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+.footer_container .twitter:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer_container .twitter::before{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+.footer_container .twitter:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer .instgram{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:whitesmoke;
+    float: left;
+    margin-top: 30px;
+    font-size: 40px;
+    position: relative;
+}
+.footer_container .instgram::after{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+.footer_container .instgram:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer_container .instgram::before{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+.footer_container .instgram:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer .linkedin{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    float: left;
+    margin-top: 30px;
+    font-size: 40px;
+    position: relative;
+}
+.footer_container .linkedin::after{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+.footer_container .linkedin:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer_container .linkedin::before{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+.footer_container .linkedin:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer .snapchat{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    float: left;
+    margin-top: 30px;
+    font-size: 40px;
+    position: relative;
+}
+.footer_container .snapchat::after{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+.footer_container .snapchat:hover:after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer_container .snapchat::before{
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 0;
+
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+.footer_container .snapchat:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.footer_container p{
+    color: black;
+    margin-top: 100px;
+}
